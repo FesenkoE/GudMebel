@@ -283,7 +283,7 @@
 
 /********** Gifts for purchases **********/
 .gift {
-	width: 95%;
+	width: 361px;
 	border: none;
 	margin-bottom: 130px;
 }
@@ -369,7 +369,7 @@
 }
 /********** popular goods **********/
 .popularGoods > li {
-	width: 310px;
+	width: 100%;
 }
 /********** popular goods **********/
 
@@ -377,6 +377,9 @@
 /********** Shop location **********/
 
 /********** Gifts for purchases **********/
+.gift {
+    width: 100%;
+}
 /********** Gifts for purchases **********/
 
 /********** questions_reviews **********/

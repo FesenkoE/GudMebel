@@ -112,7 +112,7 @@
 .contacts a {
 	color: #999999;
 	text-decoration: none;
-	border-bottom: 1px dashed #999999;
+	border-bottom: 1px dotted #999999;
 	font-size: 0.72rem; 
 }
 .contacts a:hover {
@@ -396,6 +396,9 @@
 	color: #fff;
 	border-radius: 4px;
 	border: 1px solid #fff;	
+}
+.top_selling a:hover {
+	background: none;
 }
 .level1_1 .top_selling, .level1_2 .top_selling, 
 .level1_3 .top_selling, .level1_4 .top_selling, 
@@ -1094,7 +1097,9 @@ label {
 	background: url("../img/nav-bg.png");
 	color: #fff;	
 	border-right: 1px dashed #ccc;
-
+}
+.length_385 {
+	max-width: 385px;
 }
 .none {
 	display: none;
@@ -1190,6 +1195,9 @@ label {
 /********** advantages ***********/
 
 /********** Special offers **********/
+.length_365 {
+	max-width: 365px;
+}
 .offers {
 	display: flex;
 	flex-wrap: wrap;
@@ -1285,6 +1293,9 @@ label {
 /********** Shop location **********/
 
 /********** Gifts for purchases **********/
+.lenght_270 {
+	max-width: 270px;
+}
 button[disabled] {
     width: 115px;
     height: 40px;
@@ -1438,6 +1449,9 @@ button[disabled] {
 	display: block;
 	color: #ff6c1a;
 	font-weight: bold;
+}
+.question a:hover {
+	color: #000;
 }
 .question p {
 	font-size: 13px;
@@ -1723,6 +1737,38 @@ footer {
 }
 .payment_img:hover {
 	-webkit-filter: grayscale(0%);
+}
+.gudMeb p {
+	color: #4b4b4b;
+	font-size: 11px;
+	line-height: 14px;
+	padding-bottom: 10px;
+}
+.gudMeb {
+	padding-top: 25px;
+}
+.toTop {
+width: 35px;
+font-size: 42px;
+line-height:44px;
+border:1px solid #ccc;
+border-radius: 4px;
+background: #272727;
+text-align:center;
+padding: 0px 5px;
+position: fixed;
+bottom: 80px;
+right: 10px;
+display: none;
+color: #fff;
+-moz-transition: all 0.2s ease-in;
+-webkit-transition: all 0.2s ease-in;
+-o-transition: all 0.2s ease-in;
+-ms-transition: all 0.2s ease-in;
+}
+.toTop:hover {
+	background: #F55800;
+	cursor: pointer;
 }
 
 
