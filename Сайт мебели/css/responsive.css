@@ -1,0 +1,411 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+/***********TOP_Menu***********/
+.container {
+    max-width: 940px;
+}
+.btn-search {  
+    right: 6px;
+}
+/***********TOP_Menu***********/
+.level1_1, .level1_2, .level1_3, .level1_4, .level1_5, .level1_8 {
+    width: 47.1%;
+}
+.level1_1 li, .level1_2 li, .level1_3 li, .level1_4 li, .level1_5 li, .level1_8 li {    
+    width: 45%;
+}
+.price {   
+    right: 20px;
+}
+/********** mainBANNER **********/
+.drop_top {
+	bottom: -43px;
+}
+/********** mainBANNER **********/
+.popularGoods > li {
+	width: 32%;
+}
+/********** Popular product categories **********/
+.safes {
+	display: none;
+}
+.ergonom {
+	height: 210px;
+}
+.classic {
+	height: 210px;
+}
+.corner {
+	height: 210px;
+}
+.ergonom > a {
+	height: 210px;
+}
+.classic > a {
+	height: 210px;
+}
+.corner > a {
+	height: 210px;
+}
+/********** Popular product categories **********/
+/********** advantages ***********/
+.none_1200 {
+	display: none;
+}
+/********** advantages ***********/
+
+/********** Special offers **********/
+/********** Special offers **********/
+
+/********** Shop location **********/
+/********** Shop location **********/
+
+/********** Gifts for purchases **********/
+.gift {
+	width: 32%;
+}
+/********** Gifts for purchases **********/
+
+/********** questions_reviews **********/
+.reviews_chapter::after {	
+	display: none;	
+}
+/********** questions_reviews **********/
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.container {
+	max-width: 720px;
+	padding: 0px 15px;
+}
+/***********TOP_Menu***********/
+.menu {
+	display: none;
+}
+.main_menu {
+	background: none;
+}
+.mainMenuToggle	{
+	display: block;	
+}
+.topMenuToggle {
+	display: block;
+}
+.topMenu {
+	display: none;
+}
+.menu_uvs {
+	display: none;
+}
+.fa-bars {	
+	font-size: 1.3rem;	
+}
+.leftTopMenu  a, .rightTopMenu a {
+	font-size: 0.966rem;
+}
+.logo {
+	flex: 1;
+}
+.call {
+	flex: 1;
+}
+.contacts {
+	flex: 1;
+}
+/***********TOP_Menu***********/
+
+/********** mainBANNER **********/
+.left_mainBanner {
+	display: none;
+}
+.right_mainBanner {
+	display: none;
+}
+.banner_mobile {
+	display: block;
+}
+.center_mainBanner {
+	display: none;
+}
+/********** mainBANNER **********/
+.popularGoods > li {
+	width: 49%;
+}
+/********** Popular product categories **********/
+.ergonom, .classic  {
+	display: none;
+}
+.corner {
+	width: 100%;
+	height: 0px;
+	padding-top: 46.62%;
+}
+.corner > a {
+	height: 0px;
+	padding-top: 46.62%;
+}
+/********** Popular product categories **********/
+
+/********** advantages ***********/
+/********** advantages ***********/
+
+/********** Special offers **********/
+.none_992 {
+	display: none;
+}
+/********** Special offers **********/
+
+/********** Shop location **********/
+/********** Shop location **********/
+
+/********** Gifts for purchases **********/
+.gift {
+	width: 48.5%;
+	border: none;
+	margin-bottom: 90px;
+}
+.bla {
+	display: block;
+	border: none;
+
+}
+/********** Gifts for purchases **********/
+
+/********** questions_reviews **********/
+.questions {
+	width: 100%;	
+}
+.reviews {
+	width: 100%;
+	margin-top: 30px;
+}
+.question {
+	width: 100%;
+	min-height: 100px;
+}
+.questions_reviews {
+	flex-wrap: wrap;
+}
+/********** questions_reviews **********/
+.subscription_form_payment {
+	display: none;
+}
+.subscription_category {
+	width: 30%;
+}
+.subscription_customer {
+	width: 30%;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+/***********TOP_Menu***********/
+.menu_mobile {
+	justify-content: space-around;
+}
+.topMenuToggle {
+	text-align: center;
+	margin-bottom: 5px;
+}
+.topMenu {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.topMenu_vs {
+	display: block;
+	margin-bottom: 5px;
+}
+.logo {
+	min-width: 100%;
+	text-align: center;
+}
+.call {
+	flex: 1;
+	text-align: center;
+}
+.contacts {
+	flex: 1;
+	text-align: center;
+}
+.call img {
+	left: -10px;
+}
+.call a {
+	text-align: center;
+	margin-right: 25px;
+}
+.menu_vs {
+	display: none;
+}
+/***********TOP_Menu***********/
+
+/********** popular goods **********/
+.nameGoods::before {
+	display: none;
+}
+.nameGoods::after {
+	display: none;
+}
+.mainBanner {
+	min-height: 100px;
+}
+.popularGoods > li {
+	width: 361px;
+	border: none;
+	overflow: visible;
+	margin-top: 0px;
+	margin-bottom: 130px;
+}
+.popularGoods > li:last-child {
+	margin-bottom: 110px;
+}
+.popularGoods {
+	justify-content: center;
+}
+/********** popular goods **********/
+/********** Popular product categories **********/
+.none_768 {
+	display: none;
+}
+/********** Popular product categories **********/
+
+/********** advantages ***********/
+/********** advantages ***********/
+
+/********** Special offers **********/
+/********** Special offers **********/
+
+/********** Shop location **********/
+/********** Shop location **********/
+
+/********** Gifts for purchases **********/
+.gift {
+	width: 95%;
+	border: none;
+	margin-bottom: 130px;
+}
+.gifts {
+	justify-content: center;
+}
+/********** Gifts for purchases **********/
+.questions_answers {
+	margin-top: -35px;
+}
+/********** questions_reviews **********/
+.questions_chapter::after {
+	display: none;	
+}
+/********** questions_reviews **********/
+.social_networks {
+	justify-content: center;
+}
+.social_network {
+	width: 100%;
+	text-align: center;
+	max-width: 320px; 
+	margin: 0 auto;
+	margin-bottom: 5px;	
+}
+.social_network_contact {	
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+.networks {
+	margin: 0 auto;
+	width: 61%;
+}
+.graph_network {
+	text-align: center;
+}
+.tel_network {
+	text-align: center;
+}
+.subscription_customer {
+	display: none;
+}
+.subscription_category {
+	width: 48%;
+}
+.subscription_contact_control {
+	width: 48%;
+}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+.call {
+	min-width: 100%;
+	padding: 0;
+	text-align: center;
+
+}
+.contacts {	
+	margin-top: 10px;
+	min-width: 100%;
+	text-align: center;
+	padding-right: 0px;
+}
+.call a {
+	text-align: center;
+	margin-right: 20px;
+}
+.contacts a {
+	text-align: center;
+	margin-right: 20px;
+}
+.contacts span {
+	display: block;
+	text-align: center;
+}
+.tel img {
+	margin-left: -15px;
+}
+.menu_mobile {
+	padding: 20px 0px;
+}
+/********** popular goods **********/
+.popularGoods > li {
+	width: 310px;
+}
+/********** popular goods **********/
+
+/********** Shop location **********/
+/********** Shop location **********/
+
+/********** Gifts for purchases **********/
+/********** Gifts for purchases **********/
+
+/********** questions_reviews **********/
+.show_questions {
+	padding: 12px 9px;
+}
+/********** questions_reviews **********/	
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+/********** Popular product categories **********/
+/********** Popular product categories **********/
+
+/********** advantages ***********/
+/********** advantages ***********/
+
+/********** Special offers **********/
+/********** Special offers **********/
+
+/********** Shop location **********/
+/********** Shop location **********/
+
+/********** Gifts for purchases **********/
+/********** Gifts for purchases **********/
+
+/********** questions_reviews **********/
+.show_questions {
+	padding: 12px 9px;
+}
+/********** questions_reviews **********/
+}
